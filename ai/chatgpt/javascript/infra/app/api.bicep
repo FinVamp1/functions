@@ -22,6 +22,7 @@ module api '../core/host/functions.bicep' = {
     appSettings: appSettings
     applicationInsightsName: applicationInsightsName
     appServicePlanId: appServicePlanId
+    enableOryxBuild: true
     keyVaultName: keyVaultName
     //py
     numberOfWorkers: 1
@@ -31,7 +32,6 @@ module api '../core/host/functions.bicep' = {
     runtimeVersion: '16'
     storageAccountName: storageAccountName
     scmDoBuildDuringDeployment: false
-    enableOryxBuild: false
   }
 }
 

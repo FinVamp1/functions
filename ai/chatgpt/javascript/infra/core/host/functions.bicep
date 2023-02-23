@@ -37,7 +37,7 @@ param functionAppScaleLimit int = -1
 param linuxFxVersion string = runtimeNameAndVersion
 param minimumElasticInstanceCount int = -1
 param numberOfWorkers int = -1
-param scmDoBuildDuringDeployment bool = true
+param scmDoBuildDuringDeployment bool = false
 param use32BitWorkerProcess bool = false
 
 module functions 'appservice.bicep' = {
